@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+.inline{
+    display: inline;
+    border-style: dashed;
+    border-width: 1px;
+}
+.inlineb{
+    display: inline-block;
+}
+.block{
+    display: block;
+    border-style: dashed;
+    border-width: 1px;
+}
+#absoluto{
+    position: fixed;
+    bottom: 0%;
+    width: 200px;
+    right: 0;
+    border-style: groove;
+    border-width: 20px;
+
+    box-sizing: content-box;
+    padding: 20px;
+    margin-top: 50%;
+
+}
+
+
+#gordo{
+    width: 180px;
+}
+#grande{
+    height: 300px;
+    position: relative;
+    left: 25%;
+}
+#arriba{
+    position: relative;
+    top: -80px;
+    right: -20px;
+}
+#derecha {
+    position: relative;
+    right: -300px;
+    width: 180px;
+}
+#ultimo{
+    width: 180px;
+    position: relative;
+    left: 8%;
+    top: -150px;
+}
+
+#sol {
+    margin: 80px;
+}
+#movida {
+    position: relative;
+    left: -40px;
+}

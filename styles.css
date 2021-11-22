@@ -8,6 +8,8 @@
 }
 .inlineb{
     display: inline-block;
+    border-style: dashed;
+    border-width: 1px;
 }
 .block{
     display: block;
@@ -32,16 +34,21 @@
 
 #gordo{
     width: 180px;
+    border-style: dashed;
+    border-width: 1px;
 }
 #grande{
     height: 300px;
     position: relative;
     left: 25%;
+    border-style: dashed;
+    border-width: 1px;
 }
 #arriba{
     position: relative;
     top: -80px;
     right: -20px;
+
 }
 #derecha {
     position: relative;
@@ -61,4 +68,6 @@
 #movida {
     position: relative;
     left: -40px;
+    border-style: dashed;
+    border-width: 1px;
 }
